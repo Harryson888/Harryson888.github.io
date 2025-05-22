@@ -480,3 +480,13 @@ footer {
         padding: 15px;
     }
 }
+/* Centrar el texto del header */
+header {
+    text-align: center;
+}
+
+header p {
+    margin: 10px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
