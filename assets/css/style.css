@@ -490,3 +490,84 @@ header p {
     max-width: 600px;
     padding: 0 20px;
 }
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.feature h4 {
+    margin: 5px 0;
+    color: #08d9d6;
+}
+
+.feature p {
+    margin: 5px 0;
+    max-width: 600px;
+}
+/* Contenedor principal de las tarjetas */
+.place-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para cada tarjeta de atracción */
+.attraction-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Estilo para los iconos */
+.attraction-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los títulos */
+.attraction-card h4 {
+    color: #ff7b36;
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+/* Estilo para la descripción */
+.attraction-card p {
+    margin: 0;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Efecto hover para las tarjetas */
+.attraction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 123, 54, 0.3);
+    transition: all 0.3s ease;
+}
